@@ -1,4 +1,6 @@
 '''
+https://bit.ly/siampython2025
+
 Programma pari e dispari - versione 2
 
 Chiedo quanti numeri elaborare

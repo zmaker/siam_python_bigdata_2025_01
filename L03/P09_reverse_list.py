@@ -29,7 +29,7 @@ i     	4-i	4-1-i  n-1-i
 2		2	1
 3		1	0
 '''
-print("rev metodo 2")
+print("\nrev metodo 2")
 for i in range(n, 0, -1):
     indice = i-1
     print(lista[indice], end=" ")

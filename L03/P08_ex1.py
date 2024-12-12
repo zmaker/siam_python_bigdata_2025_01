@@ -13,3 +13,25 @@ stampo i numeri pari
 stampo i nuemri dispari
 
 '''
+n = int( input("quanti numeri? ") )
+
+pari = []
+dispari = []
+
+for i in range(n):
+    numero = int( input("n: ") )
+    if (numero%2) == 0:
+        #pari
+        pari.append(numero)
+    else:
+        #dispari
+        dispari.append(numero)
+
+print("pari: ")
+for el in pari:
+    print(el)
+    
+print("dispari")
+for el in dispari:
+    print(el)
+    

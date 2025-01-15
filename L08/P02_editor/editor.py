@@ -31,6 +31,8 @@ def main():
             salvaTesto(testo)
         elif cmd == 'x':
             pass #codice da implementare in futuro
+        elif cmd == 'd':
+            eliminaRiga(testo)
         else:
             print("comando non valido")
             getinfo()

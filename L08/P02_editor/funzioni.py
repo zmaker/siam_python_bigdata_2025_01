@@ -9,8 +9,10 @@ def getLine(righe):
     righe.append(linea_di_testo)
 
 def printText(righe):
+    i = 1
     for r in righe:
-        print(r)
+        print(i, ":", r)
+        i += 1
         
 def newBuffer(righe):
     righe.clear()
@@ -34,6 +36,15 @@ def caricaTesto(righe):
     for l in f:
         righe.append(l[:-1])
     f.close()
+    
+def eliminaRiga(testo):
+    if len(testo) > 0:
+        
+        n = int(input(f"riga da eliminare (1 - {len(testo)}): "))
+        #trasformo il numero di riga nell'indice
+        indice = n - 1
+        testo.pop(indice)
+        
 
 if __name__ == "__main__":
     print("file non eseguibile")
